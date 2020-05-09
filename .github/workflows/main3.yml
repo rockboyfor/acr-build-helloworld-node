@@ -21,7 +21,7 @@ jobs:
       with:
         creds: '${{ secrets.AZURE_CREDENTIALS }}'
         cluster-name: chenyecrnew
-        resource-group: contoso-rg
+        resource-group: chenyerg
 
     - uses: Azure/k8s-create-secret@v1
       with:
