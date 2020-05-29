@@ -1,5 +1,4 @@
-FROM node:9-alpine
-
+FROM mybaseregistry.azurecr.io/baseimages/node:9-alpine
 COPY . /src
 RUN cd /src && npm install
 EXPOSE 80
